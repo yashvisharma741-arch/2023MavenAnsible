@@ -10,9 +10,9 @@
        dest: "/opt/tomcat/webapps/2023MavenAnsible.war"
        remote-src: no
         
-     -name: Restart Tomcat
-      shell: |
-       /opt/tomcat/bin/shutdown.sh
-       /opt/tomcat/bin/startup.sh  
+   - name: Restart Tomcat
+     shell: |
+      /opt/tomcat/bin/shutdown.sh
+      /opt/tomcat/bin/startup.sh  
        
         
