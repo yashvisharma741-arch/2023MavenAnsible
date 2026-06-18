@@ -6,7 +6,7 @@
   tasks:
    - name: Copy WAR file to Tomcat
      copy: 
-       src: "/var/snap/Jenkins/5013/workspace/2023MavenAnsible/target/2023MavenAnsible.war"
+       src: "/home/2023MavenAnsible/target/2023MavenAnsible.war"
        dest: "/opt/tomcat/webapps/2023MavenAnsible.war"
        remote-src: no
         
