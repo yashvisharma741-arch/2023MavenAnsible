@@ -8,7 +8,7 @@
      copy: 
        src: "/var/snap/jenkins/5047/workspace/2023MavenAnsible/target/2023MavenAnsible.war"
        dest: "/opt/tomcat/webapps/2023MavenAnsible.war"
-       remote-src: no
+       remote_src: no
         
    - name: restart Tomcat
      shell: |
